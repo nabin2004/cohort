@@ -1,0 +1,151 @@
+*{
+    background:  #0E0E0E;
+    color: #E9EAEB;
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    margin: 0;
+    border-radius: 0;
+    margin-left: 126px;
+    margin-right: 130px;
+    margin-top: 0;
+}
+
+.logotext{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.imageLogo{
+    width: 30px;
+}
+
+.leftLogo{
+    display: flex;
+    align-items: center;
+}
+
+.navbarnlogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px ;
+    margin-right: 20px; 
+    text-align: center;
+}
+
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-decoration: none;
+    color: #9BA3B4;
+}
+
+.navlinks a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #9BA3B4;
+}
+
+.navlinks a:hover{
+    color: #E9EAEB;
+}
+
+.searchNdownload input{
+    padding: 8px 18px;
+    margin: 10px;
+    border: 0.5px solid #323232;
+    border-radius: 5px;
+    
+}
+
+button{
+    background:  #0072be;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 8px;
+    margin: 10px;
+
+    padding: 10px 20px;
+}
+
+.searchNdownload button{
+    padding: 8px;
+    margin: 10px;
+    font-size:small;
+    padding: 8px 25px;
+}
+
+.announcement{
+    font-size: 14px;
+    font-weight: 500;
+    color: #9BA3B4;
+    display: flex;
+    justify-content: center;
+}
+
+.announcement a, .midBody a{
+    color: #4DAAFC;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.midBody{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.image{
+    width: 800px;
+}
+
+.openSource{
+    background-color: #181818;
+    padding: 10px;
+    color: #9BA3B4;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255,0.07); 
+}
+
+.redefined{
+    font-weight:bold;
+    letter-spacing: -0.4px;
+    font-size: 70px;
+    line-height: 7rem;
+    font-family:sans-serif;
+}
+
+.container4announcement{
+    width: 100%;
+    height: 10%;
+}
+
+.leftside{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.left{
+    align-items: center;
+    margin-top: 50px;
+}
