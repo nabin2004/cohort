@@ -1,0 +1,79 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.Navlinks ul{
+   display: flex;
+   list-style-type: none;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+}
+
+
+.Navlinks ul li{
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.Logo img{
+    width: 100px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.midBody img{
+    width: 50%;
+    height: 50%;
+    padding: 80px;
+}
+
+.midBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bodyImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpbutton{
+    background-color: #387ed1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    border: none;
+}
+
+.signUpbutton:hover{
+    background-color: black;
+    color: white;
+}
+
+.bottommaterial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Tag{
+    font-size: 30px;
+    font-weight: bold;
+
+}
